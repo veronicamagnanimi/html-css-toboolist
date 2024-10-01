@@ -27,14 +27,17 @@
 }
 
 .bottone1 {
-    background-color: rgb(0, 136, 255);
     border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid rgb(78, 73, 229);
+    background-color: rgb(50, 127, 236);
 }
 
 .bottone2 {
-    background-color: rgb(231, 224, 224);
-    border-color: rgb(128, 128, 128);
+    border-color: rgb(203, 202, 202);
     border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid rgb(231, 224, 224);
 
 }
 
@@ -44,7 +47,7 @@
 
 main {
     padding: 50px;
-    background-color: rgb(214, 213, 213);
+    background-color: rgba(239, 237, 237, 0.903);
 }
 
 ul {
@@ -55,4 +58,51 @@ ul {
 .titolo-lista {
     font-size: 20px;
     font-weight: 1000;
+}
+
+.spunta {
+    color: green;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.croce {
+    color: red;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.editorial {
+   padding: 4px 10px;
+   background-color: rgb(50, 127, 236);
+   display: inline-block;
+   color: white;
+   border-radius: 20px;
+
+}
+
+.goals {
+    padding: 4px 10px;
+   background-color: rgb(193, 50, 236);
+   display: inline-block;
+   color: white;
+   border-radius: 20px;
+}
+
+.recruiting {
+    padding: 4px 10px;
+   background-color: rgb(3, 116, 105);
+   display: inline-block;
+   color: white;
+   border-radius: 20px;
+}
+
+.website {
+    padding: 4px 10px;
+   background-color: rgb(215, 29, 138);
+   display: inline-block;
+   color: white;
+   border-radius: 20px; 
 }
