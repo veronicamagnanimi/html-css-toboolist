@@ -65,6 +65,10 @@ ul {
     display: inline-block;
     width: 20px;
     text-align: center;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 50%;
 }
 
 .croce {
@@ -72,6 +76,10 @@ ul {
     display: inline-block;
     width: 20px;
     text-align: center;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 50%;
 }
 
 .editorial {
@@ -116,7 +124,7 @@ ul {
 
 .sales {
     padding: 4px 10px;
-    background-color: rgb(9, 185, 36);
+    background-color: rgb(176,201,38);
     display: inline-block;
     color: white;
     border-radius: 20px; 
