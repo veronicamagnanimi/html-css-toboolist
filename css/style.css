@@ -52,7 +52,7 @@ main {
 
 ul {
     list-style: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 .titolo-lista {
@@ -80,6 +80,8 @@ ul {
    display: inline-block;
    color: white;
    border-radius: 20px;
+   margin-left: 10px;
+   margin-top: 10px;
 
 }
 
@@ -89,6 +91,8 @@ ul {
    display: inline-block;
    color: white;
    border-radius: 20px;
+   margin-left: 10px;
+   margin-top: 10px;
 }
 
 .recruiting {
@@ -97,6 +101,8 @@ ul {
    display: inline-block;
    color: white;
    border-radius: 20px;
+   margin-left: 10px;
+   margin-top: 10px;
 }
 
 .website {
@@ -105,4 +111,14 @@ ul {
    display: inline-block;
    color: white;
    border-radius: 20px; 
+   margin-left: 10px
+}
+
+.sales {
+    padding: 4px 10px;
+    background-color: rgb(9, 185, 36);
+    display: inline-block;
+    color: white;
+    border-radius: 20px; 
+    margin-left: 10px
 }
